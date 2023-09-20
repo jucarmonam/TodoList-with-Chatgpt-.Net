@@ -17,9 +17,10 @@ Before running the application, make sure you have the following prerequisites i
    git clone https://github.com/jucarmonam/TodoList-with-Chatgpt-.Net.git
 
 2. Navigate to the project directory (yes twice):
+   
    ```bash
-  cd todoList
-  cd todoList
+   cd todoList
+   cd todoList
 
 3. Create or edit the appsettings.json file in the project root and configure your MySQL connection string. Replace <your_connection_string> with your MySQL database connection details:
     ```bash
@@ -36,11 +37,10 @@ Before running the application, make sure you have the following prerequisites i
 
 ## Usage
 Start the application:
-      ```bash
-      dotnet run
+   ```bash
+   dotnet run
 
-
-The API will be accessible at https://localhost:5262
+5. The API will be accessible at https://localhost:5262
 
 ## API ENDPOINTS
 
