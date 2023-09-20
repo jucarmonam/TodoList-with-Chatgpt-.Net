@@ -32,7 +32,7 @@ Before running the application, make sure you have the following prerequisites i
 
 4. Open a terminal or command prompt and run the following commands to apply database migrations:
    ```bash
-  dotnet ef database update
+     dotnet ef database update
 
 ## Usage
 Start the application:
