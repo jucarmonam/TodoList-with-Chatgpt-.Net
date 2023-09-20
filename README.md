@@ -14,5 +14,5 @@ Before running the application, make sure you have the following prerequisites i
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/todo-list-api.git
+   git clone https://github.com/jucarmonam/TodoList-with-Chatgpt-.Net.git
 
