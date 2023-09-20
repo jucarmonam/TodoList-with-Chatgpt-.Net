@@ -25,11 +25,14 @@ namespace TodoList.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TodoItem>>> GetTodoItems()
         {
-          if (_context.TodoItems == null)
-          {
-              return NotFound();
-          }
-            return await _context.TodoItems.ToListAsync();
+            var todoItems = await _context.TodoItems.ToListAsync();
+
+            if (todoItems == null || todoItems.Count == 0)
+            {
+                return NotFound(); // Return HTTP 404 Not Found if no items are found.
+            }
+
+            return Ok(todoItems); // Return HTTP 200 OK with the list of items.
         }
 
         // GET: api/TodoItems/5
@@ -47,7 +50,7 @@ namespace TodoList.Controllers
                 return NotFound();
             }
 
-            return todoItem;
+            return Ok(todoItem);
         }
 
         // PUT: api/TodoItems/5
