@@ -36,11 +36,11 @@ Before running the application, make sure you have the following prerequisites i
      dotnet ef database update
 
 ## Usage
-Start the application:
+5. Start the application:
    ```bash
    dotnet run
 
-5. The API will be accessible at https://localhost:5262
+The API will be accessible at https://localhost:5262
 
 ## API ENDPOINTS
 
@@ -50,6 +50,14 @@ Start the application:
 - PUT /api/todoitems/{id}: Update a todo item by ID (request body should be in JSON format).
 - DELETE /api/todoitems/{id}: Delete a todo item by ID.
 
-
-
-
+## short feedback
+- was it easy to complete the task using AI?:
+In some cases, using the AI was really useful to help generate code and configuration, but sometimes the steps that the AI gave me weren't complete, what I mean is that chatgpt forgot to tell me some previous configuration or packages that I needed to have previously installed.
+- How long did task take you to complete?
+around eight hours
+- Was the code ready to run after generation? What did you have to change to make it usable?
+Most of the time, the code provided wasn't really functional, for example, the unit tests I had to change a lot to make them work.
+- Which challenges did you face during completion of the task?
+thougth the solution that chatgpt gave me was really useful, I had to be really cautious, test the things, see why it didn't work, change it and things like that. In the end I think I could have done it faster without the help of chatgpt.
+- Which specific prompts you learned as a good practice to complete the task?
+Give him a role, Be clear and concise and Provide feedback
