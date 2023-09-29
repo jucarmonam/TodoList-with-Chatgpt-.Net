@@ -40,7 +40,7 @@ Before running the application, make sure you have the following prerequisites i
    ```bash
    dotnet run
 
-The API will be accessible at https://localhost:5262
+The API will be accessible at http://localhost:5262
 
 ## API ENDPOINTS
 
